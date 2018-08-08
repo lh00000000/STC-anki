@@ -1,0 +1,72 @@
+arm track;<span>ctrl</span>+<span>A</span>
+arm track (exclusive);<span>ctrl</span>+<span>alt</span>+<span>A</span>
+arm kill (unarm every track);<span>ctrl</span>+<span>shift</span>+<span>A</span>
+auto-arm track on selection **;<span>ctrl</span>+<span>shift</span>+<span>alt</span>+<span>A</span>
+solo track;<span>ctrl</span>+<span>S</span>
+solo track (exclusive);<span>ctrl</span>+<span>alt</span>+<span>S</span>
+solo kill (unsolo every track);<span>ctrl</span>+<span>shift</span>+<span>S</span>
+mute track;<span>ctrl</span>+<span>D</span>
+mute track (exclusive);<span>ctrl</span>+<span>alt</span>+<span>D</span>
+mute kill (unmute every track);<span>ctrl</span>+<span>shift</span>+<span>D</span>
+mute flip (mutes active and unmutes muted tracks);<span>ctrl</span>+<span>shift</span>+<span>alt</span>+<span>D</span>
+volume (up/down);<span>ctrl</span>+<span>F</span> / <span>ctrl</span>+<span>V</span><span class="higher-precision">&nbsp;+<span>alt</span></span>
+volume sweet spot (-12db);<span>ctrl</span>+<span>G</span>
+pan (left/right);<span>ctrl</span>+<span>Z</span><span class="qwertz">***</span> / <span>ctrl</span>+<span>C</span><span class="higher-precision">&nbsp;+<span>alt</span></span>
+pan center;<span>ctrl</span>+<span>X</span>
+sends 1-8 (up/down);<span>ctrl</span>+<span>1-8</span> / <span>ctrl</span>+<span>Q-I</span><span class="higher-precision">&nbsp;+<span>alt</span></span>
+sends 1-8 (open/close);<span>ctrl</span>+<span>shift</span>+<span>1-8</span> / <span>ctrl</span>+<span>shift</span>+<span>Q-I</span>
+switch monitoring;<span>ctrl</span>+<span>M</span>
+fold/unfold track/group;<span>ctrl</span>+<span>shift</span>+<span>UP</span> / <span>ctrl</span>+<span>shift</span>+<span>DOWN</span>
+assign to crossfader A;<span>cmd</span>+<span>ctrl</span>+<span>A</span>
+assign to crossfader B;<span>cmd</span>+<span>ctrl</span>+<span>B</span>
+assign to crossfader None;<span>cmd</span>+<span>ctrl</span>+<span>N</span>
+master crossfader;<span>cmd</span>+<span>ctrl</span>+<span>alt</span>+<span>A</span> / <span>cmd</span>+<span>ctrl</span>+<span>alt</span>+<span>B</span> / <span>cmd</span>+<span>ctrl</span>+<span>alt</span>+<span>N</span>
+navigate scenes / prev/next scene;<span>ctrl</span>+<span>UP</span> / <span>ctrl</span>+<span>DOWN</span>
+select first scene;<span>ctrl</span>+<span>PAGEUP</span>
+select last scene;<span>ctrl</span>+<span>PAGEDOWN</span>
+navigate tracks / prev/next track;<span>ctrl</span>+<span>LEFT</span> / <span>ctrl</span>+<span>RIGHT</span>
+select first track;<span>ctrl</span>+<span>HOME</span>
+select last track;<span>ctrl</span>+<span>END</span>
+fire selected scene;<span>ctrl</span>+<span>RETURN</span>
+fire next scene;<span>ctrl</span>+<span>alt</span>+<span>UP</span>
+fire previous scene;<span>ctrl</span>+<span>alt</span>+<span>DOWN</span>
+fire selected clipslot;<span>alt</span>+<span>RETURN</span>
+fire next clipslot;<span>alt</span>+<span>UP</span>
+fire previous clipslot;<span>alt</span>+<span>DOWN</span>
+fire next available/empty clipslot;<span>alt</span>+<span>PAGEUP</span>
+fire previous available/empty clipslot;<span>alt</span>+<span>PAGEDOWN</span>
+select playing clipslot;<span>shift</span>+<span>alt</span>+<span>RETURN</span>
+auto-select playing clip-slot when selecting a track (toggle);<span>shift</span>+<span>alt</span>+<span>ENTER</span>
+stop track (stops any clip playing on that track);<span>ctrl</span>+<span>shift</span>+<span>RETURN</span>
+stop all tracks (stops all clips playing on all tracks);<span>ctrl</span>+<span>shift</span>+<span>alt</span>+<span>RETURN</span>
+navigate devices;<span>CAPS</span>+<span>LEFT</span> / <span>CAPS</span>+<span>RIGHT</span>
+select instrument (if available);<span>CAPS</span>+<span>L</span>
+toggle device on/off;<span>CAPS</span>+<span>O</span>
+parameter 1-8;<span>CAPS</span>+<span>1-8</span> / <span>CAPS</span>+<span>Q-I</span><span class="higher-precision">&nbsp;+<span>alt</span></span>
+parameter 1-8 (reset);<span>CAPS</span>+<span>A-K</span>
+toggle metronome;<span>ctrl</span>+<span>K</span>
+back to arrangement;<span>F10</span>
+toggle overdub;<span>ctrl</span>+<span>O</span>
+disable overdub;<span>ctrl</span>+<span>alt</span>+<span>O</span>
+toggle punch-in;<span>ctrl</span>+<span>P</span>
+toggle punch-out;<span>ctrl</span>+<span>alt</span>+<span>P</span>
+toggle loop;<span>ctrl</span>+<span>L</span>
+toggle record-mode;<span>ctrl</span>+<span>J</span> / <span>F9</span>
+tempo control (up/down);<span>ctrl</span>+<span>T</span> / <span>ctrl</span>+<span>shift</span>+<span>T</span><span class="higher-precision">&nbsp;+<span>alt</span></span>
+tap tempo (Live 8);<span>cmd</span>+<span>.</span>
+move loop (left/right);<span>ctrl</span>+<span>9</span> / <span>ctrl</span>+<span>0</span>
+move left loop-bracket (left/right);<span>ctrl</span>+<span>shift</span>+<span>9</span> / <span>ctrl</span>+<span>shift</span>+<span>0</span>
+move right loop-bracket (left/right);<span>ctrl</span>+<span>alt</span>+<span>9</span> / <span>ctrl</span>+<span>alt</span>+<span>0</span>
+play (selection if any else from startmarker) / stop;<span>alt</span>+<span>SPACE</span>
+play (from startmarker) / stop;<span>SPACE</span>
+play (from current position) / pause;<span>shift</span>+<span>SPACE</span>
+scrub playhead (left/right);<span>ctrl</span>+<span>.</span> / <span>ctrl</span>+<span>,</span>
+undo;<span>cmd</span>+<span>Z</span>
+redo;<span>cmd</span>+<span>shift</span>+<span>Z</span>
+clip launch quantization;<span>cmd</span>+<span>+</span> / <span>cmd</span>+<span>-</span>
+MIDI recording quantization;<span>cmd</span>+<span>alt</span>+<span>+</span> / <span>cmd</span>+<span>alt</span>+<span>-</span>
+fold/unfold automation lane;<span>cmd</span>+<span>ctrl</span>+<span>shift</span>+<span>A</span>
+toggle browser on/off;<span>cmd</span>+<span>alt</span>+<span>B</span>
+toggle session/arrangement;<span>TAB</span>
+toggle detail on/off;<span>cmd</span>+<span>alt</span>+<span>L</span>
+toggle detail clip/device;<span>shift</span>+<span>TAB</span>
